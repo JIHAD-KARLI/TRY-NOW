@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+     background-image: url(img1.jpg);
+     height: 350px;
+     background-position: center center;
+}
+.conteiner{
+    width: 80%;
+    height: 35%;
+    background-color:#22262A;
+    position: absolute;
+    transform: translate(12.5%,-40%);
+    border-radius: 20px;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.233);
+}
+
+.profileleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.profileimg{
+    border-radius: 10px;
+    transform: translate(20% , -30%);
+    box-shadow: 10px 10px 20px rgba(133, 133, 133, 0.205);
+    height: 220px;
+}
+
+.profileimg:hover{
+    height: 230px;
+    transition-duration: .5s;
+    transform: translate(20% , -40%);
+}
+
+.name{
+    color: white;
+    margin-left: 10%;
+}
