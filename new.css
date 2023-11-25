@@ -5,11 +5,13 @@
 }
 
 .hero{
-     background-image: url(img1.jpg);
+     background-image: url(img\ one.jpg);
      height: 350px;
      background-position: center center;
 }
+
 .conteiner{
+    padding: 30px;
     width: 80%;
     height: 35%;
     background-color:#22262A;
@@ -17,6 +19,7 @@
     transform: translate(12.5%,-40%);
     border-radius: 20px;
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.233);
+    /* display: flex; */
 }
 
 .profileleft{
@@ -27,26 +30,72 @@
 
 .profileimg{
     border-radius: 10px;
-    transform: translate(20% , -30%);
+    transform: translate(0% , -50%);
     box-shadow: 10px 10px 20px rgba(133, 133, 133, 0.205);
-    height: 220px;
+    height: 180px;
+    border: 5px solid #1D1E24;
 }
 
-.profileimg:hover{
-    height: 230px;
-    transition-duration: .5s;
-    transform: translate(20% , -40%);
-}
 
 .name{
     color: white;
-    margin-left: 10%;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+
+.profilename{
+    font-family: sans-serif;
+    font-size: 32px;
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+
+.para{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #696F78;
+    margin-top: 15px;
+}
+
+.ibackground{
+    width: 80%;
+    height: 30%;
+    /* background-color: gr; */
+    margin-top: 35px;
+    display: flex;
+    gap: 1rem;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.black-conteiner{
+    margin-left: 10% ;
+}
+
+.facebook ,
+.twitter,
+.linkedin{
+    border-radius: 6px;
+    width: 53px;
+    height:53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( -45deg, rgba(82, 82, 82, 0.11), #22262A );
+    background-color: #212428;
+    /* background: linear-gradient(to right bottom, #212428, #16181c); */
+}
+.facebook:hover ,
+.twitter:hover,
+.linkedin:hover{
+    transform: translate(0%,-10%);
+    transition-duration: 0.3s;
+    background-color:#181A1E;
+}
+
+.vl{
+    width: 1px;
+    height: 100%;
+    background-color: black;
+    margin-left: 20px;
+}
+.profileright{
+    width: 50%;
+    height: 100%;
 }
