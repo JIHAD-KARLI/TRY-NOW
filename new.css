@@ -100,7 +100,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 20px;
 }
 .pop{
     color: #808690;
