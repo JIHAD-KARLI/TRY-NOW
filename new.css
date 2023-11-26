@@ -98,4 +98,15 @@
 .profileright{
     width: 50%;
     height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 0 0 40px;
+}
+.pop{
+    color: #808690;
+    margin-bottom:10px ;
+}
+.hop{
+    font-size: 18px;
+    color: #B3BDCB;
 }
