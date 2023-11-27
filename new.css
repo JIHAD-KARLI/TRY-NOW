@@ -54,14 +54,13 @@
 }
 
 .ibackground{
-    width: 50%;
+    width: 80%;
     height: 30%;
     /* background-color: gr; */
     margin-top: 20px;
     display: flex;
     gap: 1rem;
     padding: 20px 0px 20px 0px;
-
 }
 
 .black-conteiner{
@@ -105,8 +104,15 @@
 .pop{
     color: #808690;
     margin-bottom:10px ;
+    font-family: sans-serif;
 }
 .hop{
     font-size: 18px;
     color: #B3BDCB;
+    font-family: sans-serif;
+}
+.master{
+    height: 1000px;
+    width: auto;
+    background-color: #212428;
 }
