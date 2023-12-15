@@ -262,13 +262,14 @@ a:focus{
 }
 
 .felx{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 3rem;
     gap: 1rem;
 }
 
 .box1{
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
     height: auto;
     background-color: #202226;
@@ -277,7 +278,7 @@ a:focus{
 }
 .ndpng{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 .stack:hover{
@@ -301,19 +302,19 @@ a:focus{
     color: #E30349;
 }
 
-.box2{
+/* .box2{
     width: 50%;
     border-radius: 10px;
     height: auto;
     background-color: #202226;
     padding: 20px;
     border: 1px solid black;
-}
-.ndpng2{
+} */
+/* .ndpng2{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 .stack2:hover{
     color: red;
 }
