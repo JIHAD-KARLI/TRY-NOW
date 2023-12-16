@@ -150,7 +150,7 @@ a:focus{
     width: 100%;
 }
 .secendwork{
-    width: 81%;
+    width: 84%;
     height: auto;
     border-radius: 10px;
     background-color:#202226;
@@ -254,6 +254,8 @@ a:focus{
     color: white;
     margin-top: 50px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
     font-weight: 800;
 }
 .three{
@@ -287,13 +289,19 @@ a:focus{
 
 .stack{
     display: flex;
-    margin-left: 25%;
-    font-weight: 700;
+    justify-content: center;
+    /* margin-left: 25%; */
+    font-weight: 900;
+    font-size: 20px;
 }
 .lorem1{
     text-align: center;
     color: #878E7C;
     font-size: 25px;
+    padding:15px;
+}
+.ancoe{
+    padding: 20px;
 }
 .ancoe:focus{
      background-color: transparent;
@@ -319,16 +327,16 @@ a:focus{
     color: red;
 }
 
-.stack2{
+/* .stack2{
     display: flex;
     margin-left: 34%;
     font-weight: 700;
-}
-.lorem2{
+} */
+/* .lorem2{
     text-align: center;
     color: #878E7C;
     font-size: 25px;
-}
+} */
 .ancoe2:focus{
      background-color: transparent;
 }
@@ -353,22 +361,24 @@ a:focus{
 
 .coto1{
     height: auto;
-    background-color: green;
+     /* background-image: linear-gradient(to right, #212428;  */
+    background-color:#212428;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: -10px -10px 25px #2d2e31;
 }
 
 .one{
-    height: 4px;
+    height: 2px;
     width: 100%;
     border: none;
     background-color: black;
     margin: 10px 0;
 }
 .one3{
-    height: 4px;
+    height: 2px;
     width: 100%;
     border: none;
     background-color: black;
@@ -376,11 +386,35 @@ a:focus{
     margin-top: 40px;
 }
 .one2{
-    height: 4px;
+    height: 2px;
     width: 100%;
     border: none;
     background-color: black;
     justify-content: center;
     margin-top: 25px;
+}
+
+.two{
+    height: 1%;
+    width:98%;
+    margin: 100px 10px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+}
+
+.coto1:hover{
+    transform: translate(0);
+    background-color: rgb(50, 57, 61);
+}
+
+.para5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: white; */
+    color: rgb(102, 98, 98);
+    display: flex;
+    justify-content: center;
+    padding: 80px;
 }
 
